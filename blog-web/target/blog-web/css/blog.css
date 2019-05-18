@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS reset */
+*{ font-family:"microsoft yahei",simsun,Tahoma,sans-serif;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { margin:0; padding:0; }
+fieldset,img {border:0; }
+ol,ul {list-style:none; }
+h1,h2,h3,h4,h5,h6,button,input,select,textarea {font-size:100%;}
+button::-moz-focus-inner,input::-moz-focus-inner{padding:0; border:0;}
+table {border-collapse:collapse;border-spacing:0;}
+i, cite, em, var, dfn, address {font-style: normal;}
+body{ font-size:14px;}
+a{color: #313131;text-decoration: none; }
+a:hover{text-decoration: underline;}
+a:active, a:focus{outline:none}
+a[href^="http://tongji.baidu.com"]{display: none;}
+.fl{float: left;}
+.fr{float: right;}
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; font-size:0;}
+.clearfix{zoom:1;clear:both;}
+.clear{clear:both; height:0; line-height:0; font-size:0;}
+.hidden,.none{display: none;}
+
+
+
+/*.w1060{ width:1060px; height:auto; margin:0 auto;}*/
+.padding_nei{ /*写padding不撑开*/
+	-webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    -o-box-sizing:border-box;
+	box-sizing:border-box;
+}
+.main01 .sousuo div{    
+	-webkit-border-radius: 17px;
+    -moz-border-radius: 17px;
+    -ms-border-radius:17px;
+    -o-border-radius:17px; 
+	border-radius:17px;	
+	}
+	
+.w1100{ width:1100px; height:auto; margin:0 auto;}
+.w1096{ width:1096px; height:auto; margin:0 auto;}
+

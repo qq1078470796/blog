@@ -1,0 +1,23 @@
+
+    <link href="${ctx}/css/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="${ctx}/css/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="${ctx}/css/zui/css/zui.min.css" rel="stylesheet" />
+    <link href="${ctx}/css/zui/css/zui-theme.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="${ctx}/css/reply/css/style.css">
+    <link rel="stylesheet" href="${ctx}/css/reply/css/comment.css">
+    <script type="text/javascript" src="${ctx}/js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="${ctx}/css/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="${ctx}/css/zui/js/zui.min.js"></script>
+    <script type="text/javascript" src="${ctx}/css/reply/js/jquery.flexText.js"></script>
+    <link href="../../css/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../../css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Custom Theme files -->
+    <link href="css/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- //js -->
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+    <!-- for bootstrap working -->
+    <script src="/js/bootstrap.js"></script>
+    <!-- //for bootstrap working -->
