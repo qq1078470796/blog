@@ -497,7 +497,7 @@
                             <li class="blog-fix">
                                 <a href="${ctx}/watch?cid=${cont.id}">${cont.title}</a>
                                 <a href="${ctx}/deleteContent?cid=${cont.id}"><span class="bar-delete">删除</span></a>
-                                <a href="${ctx}/writedream?cid=${cont.id}"><span class="bar-update">修改</span></a>
+                                <a href="${ctx}/writePage?cid=${cont.id}"><span class="bar-update">修改</span></a>
                                 <hr/>
                             </li>
                         </c:forEach>
@@ -691,7 +691,7 @@
                     if(ucList!=null) {
                         $(ucList).each(function () {
                             var contHtml = " <li class='blog-fix'> <a href='${ctx}/watch?cid="+this.id+"'>"+this.title+"</a><a href='${ctx}/deleteContent?cid="+this.id+"'><span class='bar-delete'>删除</span></a>"
-                                +"<a href='${ctx}/writedream?cid="+this.id+"'><span class='bar-update'>修改</span></a><hr/></li>";
+                                +"<a href='${ctx}/writePage?cid="+this.id+"'><span class='bar-update'>修改</span></a><hr/></li>";
                             startHtml = startHtml + contHtml;
                         });
                         var okHtml = startHtml + endHtml;
@@ -753,7 +753,7 @@
                     if(ucList!=null) {
                         $(ucList).each(function () {
                             var contHtml = " <li class='blog-fix'> <a href='${ctx}/watch?cid="+this.id+"'>"+this.title+"</a> <a href='${ctx}/deleteContent?cid="+this.id+"'><span class='bar-delete'>删除</span></a>"
-                                +"<a href='${ctx}/writedream?cid="+this.id+"'><span class='bar-update'>修改</span></a><hr/></li>";
+                                +"<a href='${ctx}/writePage?cid="+this.id+"'><span class='bar-update'>修改</span></a><hr/></li>";
                             startHtml = startHtml + contHtml;
                         });
                         var okHtml = startHtml + endHtml;
