@@ -7,24 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb2a1734-881d-48c3-852f-032c99e4396b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-web/blog-web.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-web/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-web/src/main/resources/qqconnectconfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/qqconnectconfig.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/WEB-INF/personal/personal.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/blog-web/src/main/webapp/WEB-INF/personal/personal.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-web/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/blog-web/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-web/target/blog-web/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/blog-web/target/blog-web/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-web/target/blog-web/WEB-INF/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/blog-web/target/blog-web/WEB-INF/classes/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-web/target/blog-web/WEB-INF/personal/personal.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/blog-web/target/blog-web/WEB-INF/personal/personal.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-web/target/classes/META-INF/blogweb.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-web/target/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/blog-web/target/classes/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/blog-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-web/target/blog-web/WEB-INF/classes/qqconnectconfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/blog-web/target/blog-web/WEB-INF/classes/qqconnectconfig.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-web/target/blog-web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/blog-web/target/blog-web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-web/target/classes/qqconnectconfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/blog-web/target/classes/qqconnectconfig.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/blog-web/target/" />
@@ -49,20 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/jdbc.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/qqconnectconfig.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+            <state relative-caret-position="182">
+              <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -103,7 +79,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -301,16 +277,23 @@
       <workItem from="1560413075401" duration="347000" />
       <workItem from="1560757642405" duration="7153000" />
       <workItem from="1562921052313" duration="1275000" />
-      <workItem from="1563190528231" duration="1622000" />
+      <workItem from="1563190528231" duration="1712000" />
     </task>
+    <task id="LOCAL-00001" summary="更改为阿里云版本">
+      <created>1563193004797</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1563193004797</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23390000" />
+    <option name="totallyTimeSpent" value="23480000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24054463" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -322,7 +305,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.47540984" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.47540984" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -332,10 +315,10 @@
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3295082" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="bottom" id="Version Control" order="15" visible="true" weight="0.3295082" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -390,6 +373,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="更改为阿里云版本" />
+    <option name="LAST_COMMIT_MESSAGE" value="更改为阿里云版本" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -650,17 +637,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/jdbc.properties">
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/qqconnectconfig.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
-          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/qqconnectconfig.properties">
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/jdbc.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        <state relative-caret-position="182">
+          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
         </state>
       </provider>
     </entry>
