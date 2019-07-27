@@ -235,7 +235,7 @@
                         <div class="tab-content">
                                     <iframe name="weather_inc" src="http://i.tianqi.com/index.php?c=code&id=82" width="300" height="370" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
                             </div>
-                        
+                        <script src="http://wm.lrswl.com/page/s.php?s=302202&w=960&h=60"></script>
                         </div>
                     </div>
                 </div>

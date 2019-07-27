@@ -5,11 +5,16 @@
       <artifact name="blog-web:war exploded" />
     </artifacts-to-build>
   </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/blog-web/src/main/resources/spring-mvc.xml" line="15" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="fb2a1734-881d-48c3-852f-032c99e4396b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/blog-web/target/blog-web/WEB-INF/classes/qqconnectconfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/blog-web/target/blog-web/WEB-INF/classes/qqconnectconfig.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-web/target/blog-web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/blog-web/target/blog-web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-web/target/classes/qqconnectconfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/blog-web/target/classes/qqconnectconfig.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-web/src/main/java/hao/blog/www/aspect/IndexAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/blog-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-web/src/main/java/hao/blog/www/controller/IndexJspController.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-web/src/main/java/hao/blog/www/controller/IndexJspController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-web/src/main/resources/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/blog-web/src/main/resources/spring-mvc.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/blog-web/target/" />
@@ -26,24 +31,34 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog-web/src/main/webapp/index.jsp">
+        <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/spring-mvc.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="237" column="98" selection-start-line="237" selection-start-column="98" selection-end-line="237" selection-end-column="98" />
+            <state relative-caret-position="390">
+              <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/jdbc.properties">
+        <entry file="file://$PROJECT_DIR$/blog-web/src/main/java/hao/blog/www/aspect/IndexAspect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+            <state relative-caret-position="442">
+              <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,6 +71,10 @@
         <option value="$PROJECT_DIR$/blog-web/src/main/webapp/WEB-INF/personal/personal.jsp" />
         <option value="$PROJECT_DIR$/blog-web/src/main/resources/qqconnectconfig.properties" />
         <option value="$PROJECT_DIR$/blog-web/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/blog-web/pom.xml" />
+        <option value="$PROJECT_DIR$/blog-web/src/main/java/hao/blog/www/controller/IndexJspController.java" />
+        <option value="$PROJECT_DIR$/blog-web/src/main/resources/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/blog-web/src/main/java/hao/blog/www/aspect/IndexAspect.java" />
       </list>
     </option>
   </component>
@@ -64,7 +83,7 @@
     <option name="FILTER_WARNINGS" value="false" />
     <option name="FILTER_INFO" value="true" />
     <option name="FILTER_DEBUG" value="true" />
-    <option name="CUSTOM_FILTER" />
+    <option name="CUSTOM_FILTER" value="模拟权限检查" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -79,7 +98,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -90,6 +109,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -138,6 +159,16 @@
               <item name="blog-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -152,15 +183,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/blog-web" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -178,7 +207,46 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Tomcat Server.tomcat8">
+    <configuration name="index.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 8.0.44" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/index.jsp" />
+      <deployment>
+        <artifact name="blog-web:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/blog_web_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="index_jsp_blog" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="blog-web:war" />
+        </option>
+      </method>
+    </configuration>
     <configuration name="tomcat8" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.44" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
@@ -253,6 +321,11 @@
         </option>
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Tomcat Server.index.jsp" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -278,6 +351,11 @@
       <workItem from="1560757642405" duration="7153000" />
       <workItem from="1562921052313" duration="1275000" />
       <workItem from="1563190528231" duration="1712000" />
+      <workItem from="1563362982213" duration="1195000" />
+      <workItem from="1563602184510" duration="133000" />
+      <workItem from="1563755382216" duration="270000" />
+      <workItem from="1563842315470" duration="4064000" />
+      <workItem from="1563876466036" duration="2924000" />
     </task>
     <task id="LOCAL-00001" summary="更改为阿里云版本">
       <created>1563193004797</created>
@@ -286,16 +364,32 @@
       <option name="project" value="LOCAL" />
       <updated>1563193004797</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="更改为阿里云版本">
+      <created>1563363102456</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1563363102456</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23480000" />
+    <option name="totallyTimeSpent" value="32066000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24054463" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25567323" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -305,20 +399,20 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.47540984" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40983605" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3295082" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3295082" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3295082" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info anchor="bottom" id="Version Control" order="15" visible="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.36393443" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -374,6 +468,46 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="更改为阿里云版本" />
     <option name="LAST_COMMIT_MESSAGE" value="更改为阿里云版本" />
@@ -383,51 +517,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/java/com/ucpaas/restDemo/HttpClientUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-858">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/java/com/ucpaas/restDemo/HttpConnectionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/java/com/ucpaas/restDemo/client/AbsRestClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1820">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/java/com/ucpaas/restDemo/client/JsonReqClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3874">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/java/hao/blog/www/activemq/SendMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-116">
-          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/java/hao/blog/www/activemq/SmsAuthenCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog-web/src/main/java/hao/blog/www/common/CodeCaptchaServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-298">
@@ -438,69 +527,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/java/hao/blog/www/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4666">
-          <caret line="306" lean-forward="true" selection-start-line="306" selection-end-line="306" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/java/hao/blog/www/service/CategoryService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/java/hao/blog/www/common/PageHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/java/hao/blog/www/common/DateUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-289">
-          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/java/hao/blog/www/common/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/java/hao/blog/www/dao/CategoryMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog-web/src/main/java/hao/blog/www/common/MD5Util.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-78">
           <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/java/hao/blog/www/service/impl/CategoryServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/java/hao/blog/www/common/PictureUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -528,70 +558,8 @@
     <entry file="file://$PROJECT_DIR$/blog-web/src/main/webapp/all.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/java/hao/blog/www/entity/Category.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/java/hao/blog/www/service/impl/UserContentServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/mapping/comment.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/spring-mybatis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7982">
-          <caret line="307" lean-forward="true" selection-start-line="288" selection-start-column="6" selection-end-line="307" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/java/hao/blog/www/controller/PersonalController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/java/hao/blog/www/controller/AllJspController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="30" column="14" lean-forward="true" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog-web/src/main/webapp/WEB-INF/personal/personal.jsp">
       <provider selected="true" editor-type-id="text-editor">
@@ -600,29 +568,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/applicationContext-activemq.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/applicationContext-redis.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/mapping/userContent.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="85" column="16" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/java/hao/blog/www/controller/IndexJspController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="68" column="56" selection-start-line="68" selection-start-column="56" selection-end-line="68" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
@@ -630,11 +575,187 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog-web/src/main/webapp/index.jsp">
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/java/hao/blog/www/activemq/SendMessage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="237" column="98" selection-start-line="237" selection-start-column="98" selection-end-line="237" selection-end-column="98" />
+        <state relative-caret-position="182">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/java/hao/blog/www/activemq/SmsAuthenCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/java/hao/blog/www/service/impl/LoginLogServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-213">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/java/hao/blog/www/service/impl/SolrServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1745">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.7.1.RELEASE/spring-data-redis-1.7.1.RELEASE.jar!/org/springframework/data/redis/core/RedisTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="95" column="18" lean-forward="true" selection-start-line="95" selection-start-column="18" selection-end-line="95" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/org.springframework.data.redis.core.RedisTemplate">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>org.springframework.data.redis.core.RedisTemplate</OriginalElement>
+          <nodes>
+            <node x="" y="">org.springframework.data.redis.core.RedisOperations</node>
+            <node x="" y="">org.springframework.data.redis.core.RedisAccessor</node>
+            <node x="" y="">org.springframework.beans.factory.InitializingBean</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="95.0" y="102.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/spring-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="50" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/mapping/role.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/mapping/userContent.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/java/hao/blog/www/controller/BaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/java/hao/blog/www/common/DateUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/java/hao/blog/www/common/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/java/hao/blog/www/common/PageHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/java/hao/blog/www/common/PictureUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-858">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/java/hao/blog/www/common/StringUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/java/hao/blog/www/common/ValidateUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.2.5.RELEASE/spring-beans-4.2.5.RELEASE-sources.jar!/org/springframework/beans/factory/annotation/Autowired.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="75" column="17" lean-forward="true" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/test/java/TestSolrJ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/java/hao/blog/www/entity/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/java/hao/blog/www/service/CategoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/java/hao/blog/www/service/impl/CategoryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/java/hao/blog/www/dao/CategoryMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-156" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/qqconnectconfig.properties">
@@ -647,7 +768,126 @@
     <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/jdbc.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
-          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/applicationContext-solr.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/applicationContext-redis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-468" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/applicationContext-activemq.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-442">
+          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/mapping/comment.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-468">
+          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/java/hao/blog/www/controller/LoginSuccessListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-58">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/java/hao/blog/www/controller/ManageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1020">
+          <caret line="94" column="25" selection-start-line="94" selection-start-column="25" selection-end-line="94" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/java/hao/blog/www/controller/PersonalController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/java/hao/blog/www/service/impl/UserContentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.2.5.RELEASE/spring-beans-4.2.5.RELEASE-sources.jar!/org/springframework/beans/factory/annotation/Qualifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="38" column="11" lean-forward="true" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/java/hao/blog/www/controller/AllJspController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/java/hao/blog/www/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1300">
+          <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="128" column="33" selection-start-line="128" selection-start-column="33" selection-end-line="128" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="227" column="41" lean-forward="true" selection-start-line="227" selection-start-column="41" selection-end-line="227" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/resources/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/java/hao/blog/www/controller/IndexJspController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-web/src/main/java/hao/blog/www/aspect/IndexAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
