@@ -231,7 +231,7 @@
     <div class="single-grid">
         <div class="col-md-12">
             <div class="blog-left-grid">
-                <div class="container col-md-8">
+                <div class="container">
                     <div id="content" class="row-fluid">
                             <!-- 正文开始 -->
                             <div class="content-text">
@@ -310,11 +310,6 @@
                             <!-- 正文结束 -->
                         </div>
                         <!--col-md-8结束 -->
-                    </div>
-                    <div class="col-md-4" style="position:absolute;top:20px;left: 880px;width: 268px;">
-                        <div style="background-color: white;width: 250px;height: 440px">
-                            <iframe name="weather_inc" src="http://i.tianqi.com/index.php?c=code&id=82" width="250" height="440" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
-                        </div>
                     </div>
 
                 </div>

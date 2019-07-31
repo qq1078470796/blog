@@ -66,6 +66,7 @@ E:\blog\blog-web\src\main\java\hao\blog\www\service\SolrService.java
 E:\blog\blog-web\src\main\java\com\ucpaas\restDemo\client\JsonReqClient.java
 E:\blog\blog-web\src\main\java\hao\blog\www\common\PageHelper.java
 E:\blog\blog-web\src\main\java\hao\blog\www\controller\ManageController.java
+E:\blog\blog-web\src\main\java\hao\blog\www\aspect\IndexAspect.java
 E:\blog\blog-web\src\main\java\hao\blog\www\mail\SendEmail.java
 E:\blog\blog-web\src\main\java\hao\blog\www\activemq\SendMessage.java
 E:\blog\blog-web\src\main\java\hao\blog\www\service\impl\SolrServiceImpl.java

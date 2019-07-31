@@ -85,7 +85,7 @@ public class AllJspController extends BaseController {
         page = StringUtil.cutCont(page);
         model.addAttribute("page", page);
 
-        PageHelper.startPage(null, null);
+        PageHelper.startPage(null, 20);
 
         categoryService.findAll();
         PageHelper.Page CendPage = PageHelper.endPage();
